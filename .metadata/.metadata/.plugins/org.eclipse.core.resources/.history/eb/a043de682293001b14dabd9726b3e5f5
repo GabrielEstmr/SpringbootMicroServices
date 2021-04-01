@@ -1,0 +1,14 @@
+package com.gabriel.payroll.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+
+	//Criação de Componente nao atraves de @Component da classe mas sim atraves de CHAMADA DE METODO
+	@Bean
+	public RestTemplate restTemplate() {
+		
+	}
+}

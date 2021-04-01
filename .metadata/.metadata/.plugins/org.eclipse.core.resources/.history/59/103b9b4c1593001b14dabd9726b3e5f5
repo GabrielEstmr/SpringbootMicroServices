@@ -1,0 +1,5 @@
+package com.gabriel.worker.entities;
+
+public class Worker {
+
+}

@@ -1,0 +1,5 @@
+package com.gabriel.payroll.resources;
+
+public class PaymentResource {
+
+}

@@ -1,0 +1,5 @@
+package com.gabriel.payroll.services;
+
+public class PaymentService {
+
+}

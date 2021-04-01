@@ -1,0 +1,5 @@
+package com.gabriel.payroll.entities;
+
+public class Payment {
+
+}

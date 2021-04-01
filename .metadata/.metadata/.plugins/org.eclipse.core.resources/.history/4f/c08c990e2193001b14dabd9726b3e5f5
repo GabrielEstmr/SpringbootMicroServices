@@ -1,0 +1,5 @@
+
+spring.application.name=hr-worker
+server.port=8001
+
+

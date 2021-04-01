@@ -1,0 +1,12 @@
+package com.gabriel.payroll.services;
+
+import org.springframework.stereotype.Service;
+
+import com.gabriel.payroll.entities.Payment;
+
+@Service
+public class PaymentService {
+	public Payment getPayment(long workerId, int days) {
+		return new Payment("BOB", 200.0, days);
+	}
+}

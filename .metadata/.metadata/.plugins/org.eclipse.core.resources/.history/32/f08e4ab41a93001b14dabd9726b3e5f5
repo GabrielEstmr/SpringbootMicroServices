@@ -1,0 +1,5 @@
+package com.gabriel.worker.resources;
+
+public class WorkerResource {
+
+}
