@@ -10,24 +10,19 @@ import org.springframework.web.client.RestTemplate;
 
 import com.gabriel.payroll.entities.Payment;
 import com.gabriel.payroll.entities.Worker;
+import com.gabriel.payroll.feignclients.WorkerFeignClient;
 
 @Service
 public class PaymentService {
 	
-	@Value("${hostWorker}")
-	private String workerHost;
-	
 	@Autowired
-	private RestTemplate restTemplate;
+	private WorkerFeignClient workerFeignClient;
+	
 	
 	public Payment getPayment(long workerId, int days) {
 		
-		//Mapa = Dicionario de Parametros
-		//Map: é só INTERFACE: para instanciar tem que usar classe concreta
-		Map<String,String> uriVariables = new HashMap<>();
-		uriVariables.put("id", "" + workerId);
-		
-		Worker worker =restTemplate.getForObject(workerHost + "/workers/{id}", Worker.class,uriVariables);
+		//GetBody pois WorkerController retorna ResponseEntity ai tem que ter acceso ao body que é STRING
+		Worker worker =workerFeignClient.findById(workerId).getBody();
 		
 //		return new Payment("BOB", 200.0, days);
 		return new Payment(worker.getName(), worker.getDailyIncome(), days);
