@@ -11,7 +11,7 @@ import com.gabriel.payroll.entities.Worker;
 //Interface: para declarar o tipo de chamada do webService que vamos fazer (mesma coisa do que já temos em workerResource)
 
 @Component
-@FeignClient(name = "hr-worker", url = "http://localhost:8001", path = "/workers")
+@FeignClient(name = "hr-worker", path = "/workers")
 public interface WorkerFeignClient {
 	
 	@GetMapping(value = "/{id}")
