@@ -13,6 +13,7 @@ import com.gabriel.payroll.services.PaymentService;
 @RestController
 @RequestMapping(value = "/payments")
 public class PaymentResource {
+	
 	@Autowired
 	private PaymentService service;
 	
