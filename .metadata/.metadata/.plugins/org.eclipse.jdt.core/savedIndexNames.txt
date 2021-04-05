@@ -12,8 +12,8 @@ INDEX VERSION 1.131+G:\Meu Drive\Cursos\JAVA MicroServicos\ws-curso\.metadata\.m
 1753119349.index
 3008911960.index
 3683653736.index
+3497601703.index
 2467584046.index
-1466516092.index
 3371288304.index
 4217614143.index
 3605222080.index
@@ -24,4 +24,3 @@ INDEX VERSION 1.131+G:\Meu Drive\Cursos\JAVA MicroServicos\ws-curso\.metadata\.m
 2286453557.index
 2523589334.index
 2118497516.index
-813040013.index
