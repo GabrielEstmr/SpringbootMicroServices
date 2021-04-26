@@ -4854,3 +4854,4 @@ Caused by: java.lang.Exception: The resource tree is locked for modifications.
 2021-04-04 23:00:52,157 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-04-04 23:00:52,164 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-04-04 23:00:52,170 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Meu Drive\Cursos\JAVA MicroServicos\ws-curso\hr-api-gateway-zuul\src\test\resources
+2021-04-05 20:25:20,279 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

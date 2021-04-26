@@ -1,0 +1,8 @@
+
+
+eureka: balanceamento de cargas e microserviços
+API gateway ZUUL: 
+porta aleatoria: escalabilidade
+
+
+servico centralizado de configurações usando github
